@@ -6,7 +6,7 @@ while chance >= 0:
 	if inpass == password:
 		print('success !')
 		break
-	elif inpass != password:
+	else:
 		print('error ! you only have', chance, 'chance.')
 		inpass = input('Please input passwaord:')
 		chance = chance - 1
